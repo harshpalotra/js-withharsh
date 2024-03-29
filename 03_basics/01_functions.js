@@ -31,7 +31,7 @@ function loginUserMessage(username){
 // console.log(loginUserMessage())
 
 // rest operator ...
-function calculateCarPrice(val1, val2,...num1){
+function calculateCarPrice(val1,val2,...num1){
     return num1
 }
 console.log(calculateCarPrice(100,200,2000))
@@ -54,6 +54,6 @@ handleObject({
 const myNewArray = [200,500,1000,6000]
 
 function returnSecondValue(getArray){
-    return getArray[1]
+    return getArray[2]
 }
 console.log(returnSecondValue(myNewArray))
